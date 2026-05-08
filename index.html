@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Card</title>
+
+    <style>
+        .main-div {
+            border: 2px solid black;
+            border-radius: 20px;
+            width: 450px;
+            padding: 20px;
+            margin: 50px auto;
+            display: flex;
+            align-items: center;
+            background-color: rgb(162, 136, 87);
+        }
+
+        .sub-div {
+            flex: 1;
+        }
+
+        img {
+            border-radius: 20px;
+            height: auto;
+            width: 180px;
+            margin-right: 20px;
+        }
+
+        p {
+            font-size: 15px;
+            margin: 5px;
+            line-height: 1.5;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        header {
+            border-radius: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+            height: 60px;
+            width: 400px;
+            margin: 50px auto;
+            text-decoration: underline;
+            background-color: rgb(162, 136, 87);
+        }
+
+        body {
+            background-color: rgb(199, 163, 96);
+            font-family: Arial, sans-serif;
+        }
+
+        .main-div:hover {
+            transform: translateY(-20px);
+            transition: 0.03;
+            box-shadow: 0 10px 20px rgb(242, 177, 47);
+        }
+
+        header:hover {
+            transform: translateY(20px);
+            transition: 0.03;
+            box-shadow: 0 10px 20px rgb(242, 177, 47);
+        }
+
+        p strong {
+            color: rgb(134, 87, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>STUDENT CARD</h1>
+    </header>
+    <div class="main-div">
+        <image src="/WhatsApp Image 2026-04-22 at 8.01.22 PM.jpeg" alt="student image" title="student image">
+            <div class="sub-div">
+                <p><strong>Name:</strong> Saad Bin Junaid</p>
+                <p><strong>No:</strong> 837777</p>
+                <p><strong>Batch:</strong> 23</p>
+                <p><strong>Campus:</strong> Head Office</p>
+                <p><strong>Course:</strong> Modern Web Application Development</p>
+                <p><strong>Short Bio:</strong> I love learning HTML & CSS to build modern web applications.</p>
+            </div>
+    </div>
+</body>
+
+</html>
